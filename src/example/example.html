@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>faSwiper</title>
+    <style>
+        .item_container {
+            width: 200px;
+            height: 500px;
+            margin: 20px auto;
+
+        }
+
+        .item {
+            background-color: yellow;
+            border: 5px solid pink;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+<div class="item_container">
+    <div class="item_box">
+        <div class="item">0</div>
+        <div class="item">1</div>
+        <div class="item">2</div>
+    </div>
+</div>
+<script src="./lib/zepto.min.js"></script>
+<script src="./lib/fx.js"></script>
+<script src="./faSwiper.js"></script>
+<script>
+    var isData=true;
+    var o = {
+        time: 300,
+        speed: 500,
+//        direction:'column',
+        direction: 'row',
+        percentage: 1 / 2,
+        callback:function (total){
+            if(isData){
+                //total为此时item的总数
+                var num=total-3
+                if(total==20){
+                    isData=false
+                }
+                return '这是新添加的itme,我是新添加item里边的第'+num+'个item'
+            } else {
+                return ''
+            }
+//            有数据时
+//            return data  //返回数据。该数据为将要添加item的html
+//            无数据时
+//            return ''   //返回空。此时不会生成tiem
+        }
+    }
+
+
+    var faSwiper = new FaSwiper(o);
+    faSwiper.init()
+
+</script>
+</body>
+</html>

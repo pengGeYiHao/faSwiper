@@ -1,0 +1,19 @@
+{
+  "name": "fang",
+  "version": "1.0.0",
+  "description": "动态轮播图",
+  "main": "faSwiper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "fangpeng",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sequence": "^0.4.6",
+    "gulp-uglify": "^2.0.0"
+  }
+}
