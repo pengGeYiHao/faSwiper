@@ -1,10 +1,17 @@
 {
-  "name": "fps",
+  "name": "fps_2016",
   "version": "1.0.0",
   "description": "一个动态的移动端轮播图",
   "main": "gulpfile.js",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sequence": "^0.4.6",
+    "gulp-uglify": "^2.0.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,16 +24,11 @@
   ],
   "author": "fangPeng",
   "license": "ISC",
-  "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-clean": "^0.3.2",
-    "gulp-concat": "^2.6.1",
-    "gulp-rename": "^1.2.2",
-    "gulp-sequence": "^0.4.6",
-    "gulp-uglify": "^2.0.0"
-  },
   "bugs": {
     "url": "https://github.com/pengGeYiHao/faSwiper/issues"
   },
-  "homepage": "https://github.com/pengGeYiHao/faSwiper#readme"
+  "homepage": "https://github.com/pengGeYiHao/faSwiper#readme",
+  "directories": {
+    "example": "example"
+  }
 }
