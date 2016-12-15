@@ -10,7 +10,7 @@
     * 第一步引入相应的js文件
     * 第二步 实例FaSwiper，FaSwiper有一个可选的参数obj,obj的属性如下：
         * time:手指离开屏幕时item归位的时间(默认500毫秒)
-        * speed:鼠标弹起后item到达目标位置的速度（默认ease-in
+        * speed:鼠标弹起后item到达目标位置的速度（默认ease-in）
         * direction:item的排列方向(默认row横向,可以是column,column-reverse,row-reverse)
         * precentage:滑动多少之后进入下一个item,值为0~1之间的浮点数或分数（默认1/3）
         * callback:回调函数(默认返回'',当返回空值的时候不会动态添加item,当返回其他值的时候该值为动态添加item的html，一般配合ajax使用,callback有一个参数，是此时刻的item的总数)
