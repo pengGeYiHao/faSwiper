@@ -1,5 +1,6 @@
 # 介绍
 * 这是一个基于zepto和zepto中fx插件的一个动态轮播图组件
+* npm 下载方式   npm install fps_2016
 
 ##用法
 * html
