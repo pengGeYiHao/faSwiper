@@ -17,6 +17,5 @@
         * callback:回调函数(默认返回'',当返回空值的时候不会动态添加item,当返回其他值的时候该值为动态添加item的html，一般配合ajax使用,callback有一个参数，是此时刻的item的总数)
     * 第三步 调用实例化函数的init方法
 
-###相关事例请看example
+###事例example
 
-## [git地址](https://github.com/pengGeYiHao/faSwiper)
